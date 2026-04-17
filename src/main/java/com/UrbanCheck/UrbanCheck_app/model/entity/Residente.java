@@ -25,7 +25,7 @@ public class Residente {
     @NotBlank(message = "El nombre es obligatorio")
     @Size(min = 3, max = 100, message = "El nombre debe tener entre 3 y 100 caracteres")
     @Column(nullable = false)
-    private String nombre;
+    private String nombres;
 
     @Email(message = "Debe proporcionar un email valido")
     @Column(unique = true)
